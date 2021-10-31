@@ -1,0 +1,60 @@
+body
+{
+  text-align:center;
+  background: linear-gradient(#f0b4dd,#e6918a,#b6eb9d,#81bfde);
+}
+.line
+{
+   width:150px;   
+   background-color: black;  
+ margin:8px auto; 
+  height: 6px;
+}
+img
+{
+ width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.menu {   position:absolute;}
+.menu {list-style: none;font-family: sans-serif;position:absolute;top:10px;right: 30px;cursor: pointer;}
+.links {float: left;color: #fff;font-family:fantasy;font-size: 20px}
+.links:hover {background-color:dodgerblue;}
+.links  {padding-top: 5px} {padding-bottom: 5px} {padding-right: 9px} {padding-left: 9px}
+font-family: 'ZCOOL KuaiLe', cursive;
+img{align-ceter: }
+#name {font-size: 30px;line-height: 1.2;font-family: 'ZCOOL KuaiLe', cursive;}
+h2 { font-size: 30px; font-weight: 300; line-height: 1.2; font-family: monospace }
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
